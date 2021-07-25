@@ -1,0 +1,21 @@
+/* Paramètres généraux */
+
+@font-face {
+    font-family: "Raleway";
+    src: url("Raleway/static/Raleway-Regular.ttf");
+    src: url("Raleway/static/Raleway-Thin.ttf");
+}
+
+body{
+    font-family: "Raleway", Arial, "Arial Black";
+    margin:0px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
