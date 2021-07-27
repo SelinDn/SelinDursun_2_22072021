@@ -44,6 +44,11 @@ header{
     width: 47.9%;
 }
 
+.Inscription p{
+    color:#0065FC;
+    font-weight: bold;
+}
+
 nav{
     display: flex;
     width: 100%;
@@ -52,8 +57,88 @@ nav{
 nav ul{
     display: flex;
     width: 100%;
-    padding-right: 30px;
+    padding-left: 0px;
+    
 }
 
+.Li1{
+    width: 50%;
+    border-bottom: 3px #F2F2F2 solid;
+    padding-left: 35px;
+    display: flex;
+    justify-content: flex-start;
+}
 
+.Li2{
+    width: 50%;
+    padding-right: 47px;
+    border-bottom: 3px #F2F2F2 solid;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Mise en page de la Section 1 */
+
+#section_one{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 210px;
+}
+
+.Titredescriptif{
+    font-weight: bold;
+    width: 50%;
+}
+
+.Textedescriptif{
+    width: 50%;
+}
+
+#Recherche{
+    width: 50%;
+    height: 50%;
+}
+
+.map{
+    background-color: #F2F2F2;
+    border: 1px #F2F2F2 solid;
+    border-top-left-radius: 5px 10px;
+    border-bottom-left-radius: 5px 10px;
+    height: 25px;
+}
+
+.Rechercher{
+    display:none;
+}
+
+.loupe{
+    background-color: #0065FC;
+    color:white;
+    border: 1px #0065FC solid;
+    border-radius: 7px 7px;
+    height: 25px;
+}
+
+/* Mise en page de la Section Filtres */
+
+#section_filtres{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+#Filtres{
+    width: 100%;
+}
 
