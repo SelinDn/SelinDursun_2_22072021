@@ -8,66 +8,99 @@
     </head>
 
     <body>
+       
 
         <!-- Header -->
         <header>
-            <div class="logo">
+            <div id="conteneur_header">
+            
                 <img src="Images/logo/Reservia.svg" alt="Logo du site" />
-            </div>
+            
 
-            <div class="Inscription">
-                <a href="">
+            
+                <a href="#">
                     <p>S'inscrire</p>
                 </a>
+            
             </div>
+            
 
+            
             <nav>
                 <ul>
-                    <div class="Li1">
-                         <a href="#Hébergements"><li class="Heb">Hébergements</li></a>
-                    </div>
-                    <div class="Li2">
-                         <a href="#Activités"><li class="Act">Activités</li></a>
-                    </div>
+                     <li class="Heb"><a href="#Hébergements">Hébergements</a></li>
+                     <li class="Act"><a href="#Activités">Activités</a></li>
                 </ul>
             </nav>
+
+            
 
         </header>
 
         <!-- Section 1 -->
-        <section id="section_one">
-            <h1 class="Titredescriptif">Trouvez votre hébergement pour des vacances de rêve</h1>
-            <p class="Textedescriptif">En plein centre ville ou en pleine nature</p>
-            <div id="Recherche">
+        <section id="premiere_section">
+            <h1>Trouvez votre hébergement <br /> pour des vacances de rêve</h1>
+            <p>En plein centre ville ou en pleine nature</p>
+            
                 <form>
-                       <button class="map" type="button"><i class="fas fa-map-marker-alt"></i></button>
+                    <div id="conteneur_form">
+                       <div class="icon_map">
+                           <i class="fas fa-map-marker-alt"></i>
+                        </div>
                        <label for="search"></label>
                        <input type="text" id="search" name="search" placeholder="Marseille, France" /> 
                        <button class="Rechercher" type="button">Rechercher</button>
-                       <button class="loupe" type="button"><i class="fas fa-search"></i></button>
+                       <div class="icon_loupe">
+                           <i class="fas fa-search"></i>
+                        </div>
+                    </div>
                 </form>
-            </div>
+            
         </section>
 
         <!-- Section 3 Filtres -->
         <section id="section_filtres">
-            <h2><a href="">Filtres</a></h2>
-            <div id="Filtres">
-                <ul>
-                    <li class="Eco"><a href=""><i class="fas fa-money-bill-wave"></i>Économique</a></li>
-                    <li class="Familial"><a href=""><i class="fas fa-child"></i>Familial</a></li>
-                    <li class="Romantique"><a href=""><i class="fas fa-heart"></i>Romantique</a></li>
-                    <li class="Animaux"><a href=""><i class="fas fa-dog"></i>Animaux autorisés</a></li>
-                </ul>
+
+            <h2><a href="#">Filtres</a></h2>
+            <div id="filtres">
+                
+                    <div class="conteneur_eco_familial">
+                        
+                        <span class="economique">
+                             <i class="fas fa-money-bill-wave"></i>
+                             <a href="#">Économique</a>
+                        </span>
+                    
+                        <span class="familial">
+                             <i class="fas fa-child"></i>
+                             <a href="#">Familial</a>
+                       
+                        </span>
+
+                    </div>
+
+                    <span class="romantique">
+                         <i class="fas fa-heart"></i>
+                         <a href="#">Romantique</a>
+                    </span>
+
+                    <span class="animaux">
+                         <i class="fas fa-dog"></i>   
+                         <a href="#">Animaux autorisés</a>
+                    </span>
+
+                
             </div>
-            <p class="Info"><i class="fas fa-info"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+            
+                     <div class="info">
+                         <i class="fas fa-info"></i><p>Plus de 500 logements sont disponibles dans cette ville</p>
+                     </div>
         </section>
+
+         <!-- Partie principale du site Main -->
+         <main>
         
-
-        <!-- Partie principale du site Main -->
-        <main>
-
-            <!-- Aside Les plus populaires -->
+        <!-- Aside Les plus populaires -->
             <aside>
                 <h3 class="populaire">Les plus populaires<i class="fas fa-chart-line"></i></h3>
                 <div class="gallery">
@@ -258,8 +291,8 @@
                 </div>
                 </a>
             </section>
-
         </main>
+        
 
         <!-- Footer -->
         <footer>
@@ -285,6 +318,7 @@
                     <li>Nous contacter</li>
                 </ul>
             </a>
-        </footer>
+         </footer>
+        
       </body>
 </html>
