@@ -20,211 +20,209 @@ a{
     color: black;
 }
 
-/*
+/* Mise en page du Header */
 
-     Paramètres Header de la page 
-
-*/
-
-header{
-    display: flex;
-    flex-direction: column;
+header img{
+    margin-top: 10px;
+    margin-left: 40px;
 }
 
-#conteneur_header{
-    display: flex;
-    justify-content: space-evenly;
-    margin-top: 30px;
-}
-
-#conteneur_header img{
-    width: 200px;
-}
-
-#conteneur_header a{
-    font-size: 35px;
+.inscrire{
+    position: absolute;
+    top: 27px;
+    right: 35px;
     color: #0065FC;
     font-weight: bold;
 }
 
-/* Paramètres de la nav header */
-
 nav ul{
-    display: flex;
-    justify-content: space-evenly;
     padding: 0;
-    font-size: 25px;
-    margin: 20px 100px;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 3px #F2F2F2 solid;
 }
 
-ul li{
-    color: black;
+nav ul li{
+    padding-bottom: 7px;
     font-weight: bold;
 }
 
-/* 
-     
-     Mise en page de la première section (Titres et Formulaire) 
-
- */
+/* Mise en page Titres et Sous-titres */
 
 #premiere_section{
+    text-align: center;
+}
+
+/* Formulaire */
+
+form{
     display: flex;
-    flex-direction: column;
-}
-
-h1{
-    margin: auto;
-    width: 75%;
-    font-size: 48px;
-    padding: 35px;
-}
-
-#premiere_section p{
-    width: 75%;
-    margin: auto;
-    font-size: 34px;
-}
-
-/* Pour le formulaire */
-
-#conteneur_form{
-    display: flex;
-    width: 75%;
-    margin: auto;
-    height: 50px;
-}
-
- .icon_map{
-    width: 50px;
-    height: 50px;
-    font-size: 30px;
-    display: flex;
-    align-items: center;
     justify-content: center;
+}
+
+.icon_map{
+    width: 35px;
+    height: 35px;
     background-color: #F2F2F2;
-    border-top-left-radius: 18px;
-    border-bottom-left-radius: 18px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.icon_map i{
+    padding: 8px;
+    font-size: 15px;
 }
 
 input{
-    width: 40%;
-    padding: 0;
+    padding-left: 10px;
+    border-color: transparent;
+    font-weight: bold;
 }
 
-form button{
+.rechercher{
     display: none;
 }
 
 .icon_loupe{
-    width: 50px;
-    height: 50px;
-    font-size: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color:#0065FC;
-    border-radius: 15px;
+    width: 35px;
+    height: 35px;
+    background-color: #0065FC;
+    border-radius: 10px;
 }
 
 .icon_loupe i{
+    padding: 8px;
+    font-size: 15px;
     color: white;
-    font-size: 22px;
 }
 
-/*
-
-       Mise en page de la section des Filtres 
- 
- */
+/* Mise en page Section des filtres */
 
 #section_filtres{
+    margin-left: 40px;
+}
+
+.conteneur_filtres{
     display: flex;
     flex-direction: column;
 }
 
-#section_filtres h2{
-    padding: 0px 120px;
+.filtre_familial{
+    position: absolute;
+    right: 70px;
 }
 
-/* Conteneur des filtres */
-
-#filtres{
-    padding-left: 120px;
+.filtre_romantique, .filtre_animaux{
+    padding-top: 15px;
 }
 
-/* Conteneur filtres économique et familial */
-
-.conteneur_eco_familial{
-    display: flex;
-    width: 50%;
-    justify-content: space-between;
-}
-
-#filtres i{
-    width: 50px;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50px;
-    background-color:#DEEBFF;
-    color: #0065FC;
-}
-
-#filtres a{
-    padding: 10px;
-}
-
-.economique, .familial, .romantique, .animaux{
-    display: flex;
-    align-items: center;
-    border: 3px #d8d3d3 solid;
-    border-radius: 45px;
-    height: 47px;
-    border-width: medium;
-    font-size: 20px;
-}
-
-.romantique{
-    width: 20%;
-}
-
-.animaux{
-    width: 29%;
-}
-
-/* Texte "Plus de 500 logements..." */
+/* Texte informatif "Plus de 500..." */
 
 .info{
-    width: 50%;
-    margin-left: 115px;
     display: flex;
-    align-items: baseline;
+    align-items: center;
 }
 
 .info i{
-    border-radius: 20px;
-    border: 2px #d8d3d3 solid;
     color: #0065FC;
-    width: 20px;
+    font-size: 10px;
+    border: 3px #F2F2F2 solid;
+    border-radius: 10px;
+    width: 15px;
+    height: 15px;
     display: flex;
+    align-items: center;
     justify-content: center;
 }
 
 .info p{
-    font-size: 25px;
-    margin-left: 20px;
+    padding-left: 10px;
+    padding-top: 20px;
+    margin: 0;
 }
 
-/* 
-    
-     PARTIE MAIN
+/* Début de la partie principale (Main) */
 
-*/
+/* Aside "Les plus populaires" */
 
-/* 
-     Aside Les plus populaires 
-*/
+aside{
+    background-color: #F2F2F2;
+    height: 550px;
+}
 
+h3{
+    margin-left: 40px;
+    padding-top: 15px;
+}
 
+h3 i{
+    position: absolute;
+    right: 30px;
+}
+
+/* Les 3 hôtels les plus populaires */
+
+.hotel_1, .hotel_2, .hotel_3{
+    display: flex;
+    background-color: white;
+    border: 7px white solid;
+    border-radius: 24px;
+}
+
+.hotel_1 img, .hotel_2 img, .hotel_3 img{
+    object-fit: cover;
+    border-top-left-radius: 17px;
+    border-bottom-left-radius: 17px;
+}
+
+.hotel_1 img, .hotel_3 img{
+    width: 50%;
+}
+
+.hotel_2 img{
+    width: 76%;
+}
+
+.hotel_3{
+    height: 137px;
+}
+
+aside figcaption{
+    padding-left: 10px;
+}
+
+/* Conteneur icônes étoiles */
+
+.etoiles i{
+    color: #0065FC;
+}
+
+.heb img, .act img{
+    width: 100%;
+    height: 100px;
+    object-fit: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.hebergements figcaption{
+    padding-left: 15px;
+}
+
+.afficher_plus{
+    padding-left: 40px;
+    font-weight: bold;
+}
+
+/* Mise en page du Footer */
+
+footer{
+    height: 335px;
+    padding-top: 10px;
+    padding-left: 40px;
+    background-color: #F2F2F2;
+}
+
+footer ul{
+    padding: 0;
+}
