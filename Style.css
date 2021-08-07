@@ -107,13 +107,40 @@ input{
     flex-direction: column;
 }
 
+span a{
+    font-weight: bold;
+}
+
+span i{
+    color: #0065FC;
+    background-color: #DEEBFF;
+    border-radius: 10px;
+}
+
+span:hover{
+    background-color: rgb(178, 207, 76);
+}
+
+.filtre_eco, .filtre_romantique, .filtre_animaux{
+    width: 40%;
+    border: 2px #F2F2F2 solid;
+    border-radius: 10px;
+}
+
 .filtre_familial{
     position: absolute;
     right: 70px;
+    width: 30%;
+    border: 2px #F2F2F2 solid;
+    border-radius: 10px;
 }
 
 .filtre_romantique, .filtre_animaux{
-    padding-top: 15px;
+    margin-top: 10px;
+}
+
+.filtre_animaux{
+    width: 50%;
 }
 
 /* Texte informatif "Plus de 500..." */
@@ -147,7 +174,7 @@ input{
 
 aside{
     background-color: #F2F2F2;
-    height: 550px;
+    height: 480px;
 }
 
 h3{
@@ -161,6 +188,10 @@ h3 i{
 }
 
 /* Les 3 hôtels les plus populaires */
+
+figure{
+    box-shadow: 1px 1px 10px rgb(126, 124, 124);
+}
 
 .hotel_1, .hotel_2, .hotel_3{
     display: flex;
@@ -184,7 +215,7 @@ h3 i{
 }
 
 .hotel_3{
-    height: 137px;
+    height: 110px;
 }
 
 aside figcaption{
@@ -197,6 +228,8 @@ aside figcaption{
     color: #0065FC;
 }
 
+/* Sections hébergements et activités */
+
 .heb img, .act img{
     width: 100%;
     height: 100px;
@@ -205,13 +238,30 @@ aside figcaption{
     border-top-right-radius: 15px;
 }
 
-.hebergements figcaption{
+.hebergements figcaption, .activites figcaption{
     padding-left: 15px;
 }
 
 .afficher_plus{
     padding-left: 40px;
     font-weight: bold;
+}
+
+.heb, .act{
+    border-radius: 15px;
+}
+
+.act{
+    height: 140px;
+}
+
+.heb img{
+    padding: 3px 3px;
+    width: 98%;
+}
+
+h4{
+    margin: 0;
 }
 
 /* Mise en page du Footer */
