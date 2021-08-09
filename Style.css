@@ -38,20 +38,22 @@ header img{
 nav ul{
     padding: 0;
     display: flex;
-    justify-content: space-around;
-    border-bottom: 3px #F2F2F2 solid;
 }
 
 nav ul li{
-    padding-bottom: 7px;
+    padding-bottom: 10px;
     font-weight: bold;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    border-bottom: 3px #F2F2F2 solid;
 }
 
 .liens_nav:hover{
     color: #0065FC;
 }
 
-nav ul:hover{
+nav ul li:hover{
     border-bottom-color: #0065FC;
 }
 
@@ -125,7 +127,7 @@ input{
 }
 
 i.filtre{
-    font-size: 10px;
+    font-size: 10px; 
 }
 
 span a{
@@ -304,8 +306,13 @@ footer{
     padding-top: 10px;
     padding-left: 40px;
     background-color: #F2F2F2;
+    margin-top: 40px;
 }
 
 footer ul{
     padding: 0;
+}
+
+h5{
+    font-size: 16px;
 }
