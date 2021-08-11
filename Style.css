@@ -9,6 +9,7 @@
 body{
     font-family: "Raleway",Arial, "Arial Black";
     margin:0;
+    font-size: 16px;
 }
 
 ul{
@@ -61,6 +62,10 @@ nav ul li:hover{
 
 #premiere_section{
     text-align: center;
+}
+
+h1{
+    width: 97%;
 }
 
 /* Formulaire */
@@ -311,7 +316,54 @@ h5{
 
 /* Ecrans supérieurs ou égals à 667px (Tablettes) */
 @media screen and (min-width: 667px) {
+    body{
+        font-size: 18px;
+    }
     
+    /* Titre et Sous-titre */
+    #premiere_section{
+        text-align: initial;
+        padding-left: 20px;
+    }
 
+    form{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .filtre_familial{
+        position: initial;
+        margin-top: 10px;
+    }
+
+    /* Div infobulle */
+    #info{
+        margin-top: 19px;
+    }
+
+    .gallery_heb, .gallery_act{
+        width: 70%;
+        margin: auto;
+    }
+
+    .heb img{
+        width: 99%;
+    }
+
+    footer{
+        display: flex;
+        justify-content: space-evenly;
+        padding-left: 0;
+        height: auto;
+    }
+
+    footer li{
+        padding: 7px 0px;
+    }
+}
+
+/* Ecrans supérieurs ou égals à 1037px (Ordinateurs) */
+@media screen and (min-width: 1037px) {
+    
     
 }
