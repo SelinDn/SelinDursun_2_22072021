@@ -364,6 +364,79 @@ h5{
 
 /* Ecrans supérieurs ou égals à 1037px (Ordinateurs) */
 @media screen and (min-width: 1037px) {
+    header{
+        display: flex;
+    }
+
+    .inscrire{
+        top: 28px;
+        right: 65px;
+    }
+
+    nav, nav ul{
+        display: flex;
+        width: 70%;
+        justify-content: flex-end;
+    }
+
+    nav ul li{
+        width: 30%;
+        padding-top: 10px;
+        border-bottom: none;
+        border-top: 3px #F2F2F2 solid;
+    }
+   
+    nav ul li:hover{
+        border-top-color: #0065FC;
+    }
+
+    /* Formulaire */
+    .icon_loupe{
+        display: none;
+    }
+
+    .rechercher{
+        display: initial;
+        background-color: #0065FC;
+        color: white;
+        border: 3px transparent solid;
+        border-top-right-radius: 7px;
+        border-bottom-right-radius: 7px;
+        width: 10%;
+        cursor: pointer;
+        font-size: 15px;
+    }
+
+    #section_filtres{
+        margin-left: 25px;
+    }
+
+    /* Conteneur du h2 et des filtres */
+    .filtres{
+        display: flex;
+    }
+
+    .conteneur_filtres{
+        flex-direction: row;
+        align-items: center;
+        width: 100%;
+        padding-left: 20px;
+    }
+
+    .filtre_eco{
+        margin-top: 11px;
+    }
+
+    .filtre_eco, .filtre_familial, .filtre_romantique, .filtre_animaux{
+        height: 40px;
+    }
+
+    .conteneur_filtres i{
+        width: 42px;
+        height: 42px;
+    }
     
-    
+    span a{
+        padding-left: 15px;
+    }
 }
