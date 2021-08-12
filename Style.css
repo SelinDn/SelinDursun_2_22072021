@@ -363,7 +363,7 @@ h5{
 }
 
 /* Ecrans supérieurs ou égals à 1037px (Ordinateurs) */
-@media screen and (min-width: 1037px) {
+@media screen and (min-width: 1288px) {
     header{
         display: flex;
     }
@@ -434,9 +434,60 @@ h5{
     .conteneur_filtres i{
         width: 42px;
         height: 42px;
+        font-size: 16px;
     }
     
     span a{
         padding-left: 15px;
+    }
+
+    .conteneur_popheb{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+    }
+
+    .hebergements{
+        max-width: 70%;
+        background-color: #F2F2F2;
+        margin-left: 30px;
+        margin-top: 20px;
+        border-radius: 30px;
+    }
+
+    .conteneur_figheb{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .figheb{
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+
+    .figheb figure{
+        width: auto;
+        height: auto;
+        margin-top: 0;
+    }
+
+    .heb img{
+        width: 220px;
+    }
+
+    .gallery_heb{
+        width: 100%;
+    }
+
+    aside{
+        height: auto;
+        margin-left: 35px;
+        border-radius: 30px;
+        margin-top: 20px;
+    }
+
+    .hotel_1, .hotel_2, .hotel_3{
+        height: 150px;
     }
 }
