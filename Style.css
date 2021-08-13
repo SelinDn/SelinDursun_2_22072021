@@ -362,7 +362,7 @@ h5{
     }
 }
 
-/* Ecrans supérieurs ou égals à 1037px (Ordinateurs) */
+/* Ecrans supérieurs ou égals à 1288px (Ordinateurs) */
 @media screen and (min-width: 1288px) {
     header{
         display: flex;
@@ -373,9 +373,15 @@ h5{
         right: 65px;
     }
 
-    nav, nav ul{
+    nav{
         display: flex;
-        width: 70%;
+        width: 77%;
+        justify-content: flex-end;
+    }
+
+    nav ul{
+        width: 50%;
+        display: flex;
         justify-content: flex-end;
     }
 
@@ -423,7 +429,7 @@ h5{
         padding-left: 20px;
     }
 
-    .filtre_eco{
+   .filtre_eco{
         margin-top: 11px;
     }
 
@@ -444,13 +450,14 @@ h5{
     .conteneur_popheb{
         display: flex;
         flex-direction: row-reverse;
-        justify-content: space-between;
+        width: 98%;
+        margin: auto;
     }
 
+    /* Section */
     .hebergements{
-        max-width: 70%;
+        max-width: 65%;
         background-color: #F2F2F2;
-        margin-left: 30px;
         margin-top: 20px;
         border-radius: 30px;
     }
@@ -460,6 +467,7 @@ h5{
         flex-wrap: wrap;
     }
 
+    /* Div conteneur */
     .figheb{
         display: flex;
         width: 100%;
@@ -469,7 +477,7 @@ h5{
     .figheb figure{
         width: auto;
         height: auto;
-        margin-top: 0;
+        margin-right: 0;
     }
 
     .heb img{
@@ -482,12 +490,65 @@ h5{
 
     aside{
         height: auto;
-        margin-left: 35px;
+        margin-left: 25px;
         border-radius: 30px;
         margin-top: 20px;
     }
 
     .hotel_1, .hotel_2, .hotel_3{
+        height: 130px;
+        width: 77%;
+        margin-bottom: 50px;
+    }
+
+    .gallery_act{
+        display: flex;
+        width: 100%;
+        margin: 0;
+        justify-content: space-around;
+    }
+
+    .activites figcaption{
+        height: 45px;
+    }
+
+    /* Nom des divs pour les activités */
+    .vieuxport, .pomegue_frioul, .parc, .notredame_longchamp{
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .vieuxport figure, .parc figure{
+        width: 100%;
+        height: 100%;
+    }
+
+    .vieuxport img, .parc img{
+        height: 85%;
+    }
+
+    .vieuxport h4, .parc h4{
+        padding-top: 15px;
+    }
+
+    .pomegue_frioul figure, .notredame_longchamp figure{
+        width: 100%;
+        height: 45%;
+    }
+
+    .pomegue_frioul img, .notredame_longchamp img{
         height: 150px;
+    }
+
+    footer{
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    footer div{
+        margin-left: 40px;
+        margin-right: 130px;
     }
 }
