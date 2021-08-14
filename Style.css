@@ -336,18 +336,30 @@ h5{
         margin-top: 10px;
     }
 
+    .conteneur_filtres{
+        display: flex;
+        flex-direction: row;
+    }
+
     /* Div infobulle */
     #info{
         margin-top: 19px;
     }
 
-    .gallery_heb, .gallery_act{
-        width: 70%;
-        margin: auto;
+    .conteneur_figheb{
+        display: flex;
+    }
+
+    .figheb{
+        width: 50%;
     }
 
     .heb img{
         width: 99%;
+    }
+
+    .activites figcaption{
+        height: auto;
     }
 
     footer{
@@ -364,18 +376,18 @@ h5{
 
 /* Ecrans supérieurs ou égals à 1288px (Ordinateurs) */
 @media screen and (min-width: 1288px) {
+    body{
+        max-width: 1400px;
+        margin: auto;
+    }
+    
     header{
         display: flex;
     }
 
-    .inscrire{
-        top: 28px;
-        right: 65px;
-    }
-
     nav{
         display: flex;
-        width: 77%;
+        width: 87%;
         justify-content: flex-end;
     }
 
@@ -394,6 +406,13 @@ h5{
    
     nav ul li:hover{
         border-top-color: #0065FC;
+    }
+
+    .inscrire{
+        position: initial;
+        order: 3;
+        padding-top: 30px;
+        margin-left: 30px;
     }
 
     /* Formulaire */
@@ -452,6 +471,11 @@ h5{
         flex-direction: row-reverse;
         width: 98%;
         margin: auto;
+    }
+
+    h3 i{
+        position: initial;
+        padding-left: 150px;
     }
 
     /* Section */
