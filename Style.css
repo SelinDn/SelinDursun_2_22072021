@@ -50,6 +50,14 @@ nav ul li{
     border-bottom: 3px #F2F2F2 solid;
 }
 
+.nav_heb a{
+    color: #0065FC;
+}
+
+.nav_heb{
+    border-bottom-color: #0065FC;
+}
+
 .liens_nav:hover{
     color: #0065FC;
 }
@@ -226,7 +234,7 @@ figure{
 .hotel_1, .hotel_2, .hotel_3{
     display: flex;
     background-color: white;
-    border: 7px white solid;
+    border: 7px transparent solid;
     border-radius: 24px;
     height: 120px;
 }
@@ -297,15 +305,19 @@ h4{
 /* Mise en page du Footer */
 
 footer{
-    height: 335px;
     padding-top: 10px;
     padding-left: 40px;
     background-color: #F2F2F2;
     margin-top: 40px;
+    padding-bottom: 10px;
 }
 
 footer ul{
     padding: 0;
+}
+
+footer ul li{
+    padding-bottom: 5px;
 }
 
 h5{
@@ -331,9 +343,18 @@ h5{
         justify-content: flex-start;
     }
 
+    .filtre_eco{
+        margin-top: 9px;
+        width: 30%;
+    }
+
     .filtre_familial{
         position: initial;
         margin-top: 10px;
+    }
+
+    .filtre_romantique, .filtre_animaux{
+        width: 30%;
     }
 
     .conteneur_filtres{
@@ -395,13 +416,18 @@ h5{
         width: 50%;
         display: flex;
         justify-content: flex-end;
+        margin-top: 3px;
     }
 
     nav ul li{
         width: 30%;
-        padding-top: 10px;
+        padding-top: 26px;
         border-bottom: none;
         border-top: 3px #F2F2F2 solid;
+    }
+
+    .nav_heb{
+        border-top-color: #0065FC;
     }
    
     nav ul li:hover{
@@ -448,12 +474,14 @@ h5{
         padding-left: 20px;
     }
 
-   .filtre_eco{
+    .filtre_eco{
         margin-top: 11px;
     }
 
     .filtre_eco, .filtre_familial, .filtre_romantique, .filtre_animaux{
         height: 40px;
+        width: 20%;
+        margin: 0px 20px;
     }
 
     .conteneur_filtres i{
