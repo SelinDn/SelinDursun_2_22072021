@@ -250,6 +250,10 @@ aside figcaption{
     padding-left: 7px;
 }
 
+aside figcaption p{
+    margin-top: 7px;
+}
+
 /* Conteneur icônes étoiles */
 
 .etoiles i{
@@ -269,6 +273,7 @@ i.grise{
     border-top-right-radius: 15px;
 }
 
+/* Nom des sections */
 .hebergements figcaption, .activites figcaption{
     padding-left: 15px;
     height: 110px;
@@ -279,6 +284,7 @@ i.grise{
     font-weight: bold;
 }
 
+/* Nom des figures */
 .heb, .act{
     border-radius: 15px;
 }
@@ -514,6 +520,10 @@ h5{
         border-radius: 30px;
     }
 
+    .hebergements figure{
+        background-color: white;
+    }
+
     .conteneur_figheb{
         display: flex;
         flex-wrap: wrap;
@@ -532,6 +542,7 @@ h5{
         margin-right: 0;
     }
 
+    /* Nom des figures hébergements */
     .heb img{
         width: 220px;
     }
