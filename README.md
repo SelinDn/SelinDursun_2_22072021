@@ -3,7 +3,7 @@
 Deuxième projet de mon parcours de Développeur Web avec Openclassrooms.
 Objectif du projet : transformer une maquette en site web, ici un site de planification de vacances nommé Reservia.
 
-![Reservia] (Desktop - 1.png)
+![Reservia](Desktop - 1.png)
 
 ## Cahier des charges 
 ---------
