@@ -135,13 +135,12 @@ input{
 }
 
 .conteneur_filtres i{
-    width: 25px;
-    height: 25px;
-    border-radius: 20px;
+    width: 45px;
+    height: 55px;
+    border-radius: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 10px;
     background-color: #DEEBFF;
     color: #0065FC;
 }
@@ -156,7 +155,8 @@ span:hover{
 }
 
 .filtre_eco, .filtre_romantique, .filtre_animaux{
-    width: 40%;
+    width: 50%;
+    height: 50px;
     border: 2px #F2F2F2 solid;
     border-radius: 20px;
     display: flex;
@@ -165,8 +165,9 @@ span:hover{
 
 .filtre_familial{
     position: absolute;
-    right: 70px;
-    width: 25%;
+    right: 20px;
+    width: 35%;
+    height: 50px;
     border: 2px #F2F2F2 solid;
     border-radius: 20px;
     display: flex;
@@ -178,7 +179,7 @@ span:hover{
 }
 
 .filtre_animaux{
-    width: 52%;
+    width: 60%;
 }
 
 /* Texte informatif "Plus de 500..." */
@@ -290,7 +291,7 @@ i.grise{
 }
 
 .act{
-    height: 140px;
+    height: 240px;
 }
 
 .heb img{
@@ -300,12 +301,11 @@ i.grise{
 }
 
 .act img{
-    height: 100px;
+    height: 180px;
 }
 
 h4{
     margin: 0;
-    padding-top: 7px;
 }
 
 /* Mise en page du Footer */
@@ -476,7 +476,7 @@ h5{
     .conteneur_filtres{
         flex-direction: row;
         align-items: center;
-        width: 100%;
+        width: 93%;
         padding-left: 20px;
     }
 
@@ -485,14 +485,14 @@ h5{
     }
 
     .filtre_eco, .filtre_familial, .filtre_romantique, .filtre_animaux{
-        height: 40px;
-        width: 20%;
-        margin: 0px 20px;
+        height: 60%;
+        margin: 0px 26px;
     }
 
+    
     .conteneur_filtres i{
-        width: 42px;
-        height: 42px;
+        width: 48px;
+        height: 48px;
         font-size: 16px;
     }
     
@@ -601,11 +601,27 @@ h5{
         height: 45%;
     }
 
-    .pomegue_frioul img, .notredame_longchamp img{
-        height: 150px;
+    #pomegues img{
+        height: 170px;
     }
 
-    footer{
+    #pomegues h4{
+        padding-top: 5px;
+    }
+
+    #frioul img{
+        height: 110px;
+    }
+
+    #frioul h4{
+        padding-top: 15px;
+    }
+
+    #notredame img{
+        height: 140px;
+    }
+
+   footer{
         display: flex;
         justify-content: flex-start;
     }
