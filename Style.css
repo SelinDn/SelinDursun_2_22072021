@@ -476,8 +476,12 @@ h5{
     .conteneur_filtres{
         flex-direction: row;
         align-items: center;
-        width: 93%;
+        width: 60%;
         padding-left: 20px;
+    }
+
+    .conteneur_filtres span{
+        margin-left: 10px;
     }
 
     .filtre_eco{
@@ -486,10 +490,12 @@ h5{
 
     .filtre_eco, .filtre_familial, .filtre_romantique, .filtre_animaux{
         height: 60%;
-        margin: 0px 26px;
     }
 
-    
+    .filtre_animaux{
+        width: 40%;
+    }
+
     .conteneur_filtres i{
         width: 48px;
         height: 48px;
